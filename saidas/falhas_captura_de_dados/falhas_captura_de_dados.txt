@@ -1,0 +1,3 @@
+[20/11/2025 13:45:27] Falha na captura de dados: NOMEDOCOMPUTADOR
+Motivo: Dados vazios retornados pela sessao remota.
+------------------------------------------------------------

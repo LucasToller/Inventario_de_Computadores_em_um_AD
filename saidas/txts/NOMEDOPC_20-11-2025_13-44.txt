@@ -1,0 +1,47 @@
+D251D00001  20-11-2025_13-44
+============================================================
+
+[USUARIO]
+Usuario Atual Logado: "UsuarioAD"
+Nome Completo do Usuario: Usuario Active Directory
+
+[IDENTIFICACAO]
+Fabricante: Dell Inc.
+Modelo: XXXX
+Numero de Serie: XXXXXXX
+
+[SISTEMA OPERACIONAL]
+Sistema Operacional: Microsoft Windows 10 Enterprise
+Versao do SO: 10.0.19045
+Data de Instalacao do SO: quinta-feira, 08 de dezembro de 2022 09:34:31
+
+[BOOT]
+Ultimo Boot: terca-feira, 11 de novembro de 2025 09:32:27
+Tempo de Inicializacao: 0m 54s
+Tempo Total Ligado: 9d 4h 14m 14s
+
+[PROCESSADOR]
+Processador: Intel(R) Core(TM)2 Duo CPU     E8400  @ 3.00GHz
+
+[PLACA DE VIDEO]
+Placa de Video: Intel(R) G41 Express Chipset (Microsoft Corporation - WDDM 1.1) (3.73 GB)
+
+[MEMORIA RAM]
+Modulo 1: 4.0 GB - 1066 MHz - DDR3
+Modulo 2: 4.0 GB - 1066 MHz - DDR3
+Quantidade de modulos: 2
+Geracao da memoria: DDR3
+Memoria total: 8.0 GB
+
+[ARMAZENAMENTO]
+Armazenamento Total do Disco C: 223.08 GB
+Utilizado: 140.95 GB (63.18%)
+Disponivel: 82.14 GB (36.82%)
+Tipo de Armazenamento: SSD (223.57 GB)
+
+[REDE]
+IP Principal: 00.000.00.00
+MAC: AA-BB-CC-DD-EE-FF
+Velocidade de Rede: 1 Gbps
+Placa de Rede: Ethernet (Broadcom NetLink (TM) Gigabit Ethernet) - 1 Gbps
+

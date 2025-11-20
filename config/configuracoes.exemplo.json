@@ -1,0 +1,16 @@
+{
+  "caminhos": {
+    "pasta_saida_principal": "\\\\servidor\\compartilhado\\InventarioTI\\saidas",
+    "subpasta_planilhas": "planilhas",
+    "subpasta_txts": "txts",
+    "subpasta_falhas": "falhas_captura_de_dados"
+  },
+  "unidades_organizacionais": {
+    "Desktop": "OU=Desktop,OU=Computers,DC=empresa,DC=local",
+    "Laptop": "OU=Laptop,OU=Computers,DC=empresa,DC=local",
+    "ShopFloor": "OU=ShopFloor,OU=Computers,DC=empresa,DC=local"
+  },
+  "execucao": {
+    "max_workers": 1
+  }
+}
