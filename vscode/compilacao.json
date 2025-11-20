@@ -1,5 +1,5 @@
 {
-  "version": "0.0.0",
+  "version": "1.0.0",
   "configurations": [
     {
       "name": "InventarioTI (F5)",
@@ -11,4 +11,5 @@
       "justMyCode": true
     }
   ]
+
 }
