@@ -1,4 +1,4 @@
-# Inventário de Computadores – Joyson Safety Systems (Balneário Piçarras)
+# Inventário de Computadores 
 
 Coleta automatizada de informações de hardware, sistema operacional e rede de estações Windows via **PowerShell Remoting (WinRM)**, consolidando os resultados em **planilha XLSX** e **TXTs individuais** por máquina.
 
@@ -219,4 +219,4 @@ Tipo de Armazenamento: SSD (223.57 GB), SSD (29.12 GB)
 
 ## Licença
 
-Uso **interno** – Joyson Safety Systems.
+**Sem Licenças**.
