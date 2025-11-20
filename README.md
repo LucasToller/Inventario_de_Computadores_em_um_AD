@@ -1,4 +1,4 @@
-# Inventário de Computadores 
+# Inventário de Computadores em um AD
 
 Coleta automatizada de informações de hardware, sistema operacional e rede de estações Windows via **PowerShell Remoting (WinRM)**, consolidando os resultados em **planilha XLSX** e **TXTs individuais** por máquina.
 
