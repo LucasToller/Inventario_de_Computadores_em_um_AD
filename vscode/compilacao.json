@@ -1,0 +1,14 @@
+{
+  "version": "0.0.0",
+  "configurations": [
+    {
+      "name": "InventarioTI (F5)",
+      "type": "python",
+      "request": "compilacao",
+      "program": "${workspaceFolder}/src/python/main.py",
+      "cwd": "${workspaceFolder}/src/python",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    }
+  ]
+}
