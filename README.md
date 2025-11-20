@@ -2,8 +2,8 @@
 
 Coleta automatizada de informações de hardware, sistema operacional e rede de estações Windows via **PowerShell Remoting (WinRM)**, consolidando os resultados em **planilha XLSX** e **TXTs individuais** por máquina.
 
-> **Objetivo:** facilitar o mapeamento e a gestão de ativos de TI da unidade **251 – Balneário Piçarras**.
-> **Observação (v1.0.0):** a coleta de **impressoras foi removida** nesta versão, pois não estavam retornando as impressoras mapeadas no servidor de impressão da planta 251.
+> **Objetivo:** facilitar o mapeamento e a gestão de ativos de computadores para TI da unidade **251 – Balneário Piçarras**.
+> **Observação (v1.0.0):** a coleta de **impressoras foi removida** nesta versão, pois não estavam retornando as impressoras mapeadas no servidor de impressão
 
 > **Versão:** 1.0.0 
 
@@ -21,7 +21,6 @@ Coleta automatizada de informações de hardware, sistema operacional e rede de 
 - [Personalizações Comuns](#personalizações-comuns)
 - [Solução de Problemas (FAQ)](#solução-de-problemas-faq)
 - [Roadmap v2.0](#roadmap-v110)
-- [Boas Práticas & Segurança](#boas-práticas--segurança)
 - [Créditos](#créditos)
 - [Licença](#licença)
 
@@ -86,7 +85,6 @@ InventarioTI/
 **Estações/servidores alvo:**
 - **WinRM habilitado** e acessível (GPO recomendada)
 - Conta de execução com permissões suficientes (WMI/CIM/WinRM)
-- Firewall liberando TCP **5985/5986** (conforme política)
 
 ---
 
@@ -97,15 +95,15 @@ Todas as **configurações editáveis** ficam centralizadas neste arquivo:
 ```json
 {
   "caminhos": {
-    "pasta_saida_principal": "S:\\\\IT\\\\COMUM\\\\InventarioTI\\\\saidas",
+    "pasta_saida_principal": "\\\\servidor\\compartilhado\\InventarioTI\\saidas",
     "subpasta_planilhas": "planilhas",
     "subpasta_txts": "txts",
     "subpasta_falhas": "falhas_captura_de_dados"
   },
   "unidades_organizacionais": {
-    "Desktop": "OU=251,OU=Desktop,OU=Computers,OU=AM,DC=corp,DC=joysonsafety,DC=com",
-    "Laptop": "OU=251,OU=Laptop,OU=Computers,OU=AM,DC=corp,DC=joysonsafety,DC=com",
-    "ShopFloor": "OU=251,OU=ShopFloor,OU=Computers,OU=AM,DC=corp,DC=joysonsafety,DC=com"
+    "Desktop": "OU=Desktop,OU=Computers,DC=empresa,DC=local",
+    "Laptop": "OU=Laptop,OU=Computers,DC=empresa,DC=local",
+    "ShopFloor": "OU=ShopFloor,OU=Computers,DC=empresa,DC=local"
   },
   "execucao": {
     "max_workers": 1
@@ -213,17 +211,9 @@ Tipo de Armazenamento: SSD (223.57 GB), SSD (29.12 GB)
 
 ---
 
-## Boas Práticas & Segurança
-
-- Use uma conta **de domínio** dedicada a inventário (menor privilégio possível).  
-- Saídas contêm dados sensíveis (IP, MAC, série). Trate como **confidencial**.  
-- Versione apenas o **código** e um **exemplo** de `configuracoes.json` (não suba credenciais nem saídas reais).
-
----
-
 ## Créditos
 
-- Autor: **Lucas Toller Gutmann** – Estagiário TI Joyson Balneário Piçarras  
+- Autor: **Lucas Toller Gutmann** – Estagiário TI Joyson Balneário Piçarras/ Estudante de Ciência da Computação na Univali - Câmpus Itajaí 
 
 ---
 
