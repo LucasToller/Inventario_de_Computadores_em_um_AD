@@ -2,7 +2,7 @@
 
 Coleta automatizada de informações de hardware, sistema operacional e rede de estações Windows via **PowerShell Remoting (WinRM)**, consolidando os resultados em **planilha XLSX** e **TXTs individuais** por máquina.
 
-> **Objetivo:** facilitar o mapeamento e a gestão de ativos de computadores para TI da unidade **251 – Balneário Piçarras**.
+> **Objetivo:** facilitar o mapeamento e a gestão de ativos de computadores para TI**.
 > **Observação (v1.0.0):** a coleta de **impressoras foi removida** nesta versão, pois não estavam retornando as impressoras mapeadas no servidor de impressão
 
 > **Versão:** 1.0.0 
